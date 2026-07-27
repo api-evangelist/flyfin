@@ -1,7 +1,25 @@
 aid: flyfin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flyfin.png
 name: FlyFin
-description: 'FlyFin is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'FlyFin is an AI-powered tax preparation and filing platform for freelancers, self-employed
+  individuals, 1099 contractors, sole proprietorships, LLCs, S-Corps, C-Corps, partnerships, and W-2
+  employees. It pairs an A.I. deduction scanner that connects to 2,000+ financial institutions through
+  Plaid with a team of certified CPAs who prepare and file federal and state returns. The product suite
+  includes a quarterly tax calculator, a CPA-certified AI tax assistant for unlimited questions, audit
+  insurance with IRS representation, and Excel tax-summary exports. FlyFin operates as a consumer mobile
+  and web application (iOS and Android) and does not publish a public developer API. It was surfaced as
+  a portfolio company of Accel and added to the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/flyfin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Tax
+- Fintech
+- Artificial Intelligence
+- Accounting
+- Freelance
+- Self-Employed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://flyfin.tax/
+- type: Blog
+  url: https://flyfin.tax/blog
+- type: Support
+  url: https://flyfin.tax/contact-us
+- type: PrivacyPolicy
+  url: https://flyfin.tax/privacy-policy
+- type: TermsOfService
+  url: https://flyfin.tax/terms-of-service
+- type: Partners
+  url: https://flyfin.tax/partner-with-us
+- type: DomainSecurity
+  url: security/flyfin-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
